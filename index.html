@@ -1,0 +1,360 @@
+<html>
+<head>
+	<title>Testing</title>
+
+	<meta charset="UTF-8" />
+    <!-- Style for the demo page -->
+	<!-- Style of the component -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+ 
+	<link rel="stylesheet" type="text/css" href="css/demo.css" />
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+	<noscript>
+		<link rel="stylesheet" type="text/css" href="css/styleNoJS.css" />
+	</noscript>
+	<link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow&v1' rel='stylesheet' type='text/css' />
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&v2' rel='stylesheet' type='text/css'>
+</head>
+<body>
+
+	<div class="container">
+		<h1>Twitter Project<span> by QAC</span></h1>
+			<div id="va-accordion" class="va-container">
+				<div class="va-nav">
+					<span class="va-nav-prev">Previous</span>
+					<span class="va-nav-next">Next</span>
+				</div>
+				<div class="va-wrapper" style="background:#f9e830;">
+					<div class="va-slice va-slice-1">
+						<h3 class="va-title">Qactweet 1</h3>
+						<div class="va-content">
+							<p></p>
+							<ul>
+								<li><a href="#">Status</a></li>
+								<li><a id = "Adjust1" href="#" data-id="1">Adjust Parameters</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="va-slice va-slice-2">
+						<h3 class="va-title">Qactweet 2</h3>
+						<div class="va-content">
+							<p></p>
+							<ul>
+								<li><a href="#">Status</a></li>
+								<li><a id = "Adjust2" href="#" data-id="2">Adjust Parameters</a></li>
+							</ul>
+						</div>	
+					</div>
+					<div class="va-slice va-slice-3">
+						<h3 class="va-title">Qactweet 3</h3>
+						<div class="va-content">
+							<p></p>
+							<ul>
+								<li><a href="#">Status</a></li>
+								<li><a id = "Adjust3" href="#" data-id="3">Adjust Parameters</a></li>
+							</ul>
+						</div>	
+					</div>
+					<div class="va-slice va-slice-4">
+						<h3 class="va-title">Qactweet 4</h3>
+						<div class="va-content">
+							<p></p>
+							<ul>
+								<li><a href="#">Status</a></li>
+								<li><a id = "Adjust4" href="#" data-id="4">Adjust Parameters</a></li>
+							</ul>
+						</div>	
+					</div>
+					<div class="va-slice va-slice-5">
+						<h3 class="va-title">Qactweet 5</h3>
+						<div class="va-content">
+							<p></p>
+							<ul>
+								<li><a href="#">Status</a></li>
+								<li><a id = "Adjust5" href="#" data-id="5">Adjust Parameters</a></li>
+							</ul>
+						</div>	
+					</div>
+					<div class="va-slice va-slice-6">
+						<h3 class="va-title">Qactweet 6</h3>
+						<div class="va-content">
+							<p></p>
+							<ul>
+								<li><a href="#">Status</a></li>
+								<li><a id = "Adjust6" href="#" data-id="6">Adjust Parameters</a></li>
+							</ul>
+						</div>	
+					</div>
+					<div class="va-slice va-slice-7">
+						<h3 class="va-title">Qactweet 7</h3>
+						<div class="va-content">
+							<p></p>
+							<ul>
+								<li><a href="#">Status</a></li>
+								<li><a id = "Adjust7" href="#" data-id="7">Adjust Parameters</a></li>
+							</ul>
+						</div>	
+					</div>
+					<div class="va-slice va-slice-7">
+						<h3 class="va-title">Qactweet 8</h3>
+						<div class="va-content">
+							<p></p>
+							<ul>
+								<li><a href="#">Status</a></li>
+								<li><a id = "Adjust8" href="#" data-id="8">Adjust Parameters</a></li>
+							</ul>
+						</div>	
+					</div>
+				</div>
+			</div>
+			<div class= "form-container">
+	        <form class="form-horizontal" id="formsubmit" action="uploadjson.php" method="POST">
+					<fieldset>
+			    	<div class="control-group">
+				  <label name = "input01" class="control-label" for="input01">Log Filename</label>
+					<div class="controls">
+			          <input type="text" class="input-xlarge" id="input01"></input>
+				    </div> 
+				</div>
+				<div class="control-group">
+				  <label class="control-label" for="select01">Server Name</label>
+				    <div class="controls">
+				      <select name = "select01" id="select01">
+				        <option></option>
+				        <option>ducky</option>
+				          </select>
+				        </div>
+			    </div> 
+			    <div class="control-group">
+				  <label  class="control-label" for="select02">Database Name</label>
+				    <div class="controls">
+				      <select name = "select02" id="select02">
+				        <option></option>
+				        <option>GeneralElection</option>
+				      </select>
+				    </div>
+			    </div>
+			    <div class="control-group">
+				  <label class="control-label" for="input02">Email To</label>
+			    	<div class="controls">
+			          <input name = "input02" type="text" class="input-xlarge" id="input02"></input>
+					<p class="help-block">seperate each email by comma</p>
+				    </div>
+				</div>
+				<div class="control-group">
+				  <label class="control-label" for="input03">Follow</label>
+			        <div class="controls">
+			       	  <input name = "input03" type="text" class="input-xlarge" id="input03"></input>
+					<p class="help-block">seperate each term by comma</p>
+				    </div>
+				</div>
+				<div class="control-group">
+				  <label class="control-label" for="input04">Track</label>
+			        <div class="controls">
+			          <input name = "input04" type="text" class="input-xlarge" id="input04"></input>
+			          <p class="help-block">seperate each term by comma</p>
+					</div>
+			    </div>
+		      </fieldset>
+			</form>
+			<button type="submit" class="btn btn-primary" id="Save">Save changes</button>
+		</div>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+		<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+		<script type="text/javascript" src="js/jquery.mousewheel.js"></script>
+		<script type="text/javascript" src="js/jquery.vaccordion.js"></script>	
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+		<script type="text/javascript">
+			$(function() {
+
+				 var    select01 = $('#select01');
+				 var	select02 = $('#select02');
+				 var	input01 = $('#input01');
+				 var	input02 = $('#input02');
+				 var	input03 = $('#input03');
+				 var	input04 = $('#input04');
+				 var    current = 1;
+				$('label.control-label').css({
+					'font-size':'20px',
+					'color':'#000',
+					'text-shadow':'1px 1px 1px #fef7a9',
+				});
+				$('form')
+					.css({
+						'position':'relative',
+				 		'margin-top': '-400px',
+						'margin-left': '250px',
+					})
+					.animate({left: 600, opacity: 1.0}, 0)
+					.hide();
+				$('button')
+					.css({
+						'position':'relative',
+				 		'margin-top': '0px',
+						'margin-left': '575px',
+					})
+					.animate({left: 600, opacity: 1.0}, 0)
+					.hide();
+				$('#testing')
+					.css({
+						'font-size':'30px',	
+						'position':'relative',
+						'margin-top': '-320px',
+						'margin-left': '50px',
+						'width' :'300px', 
+					})
+					.animate({left: 600, opacity: 1.0}, 0)
+                                        .hide();
+					
+				$('#va-accordion').vaccordion({
+					accordionW      : 800,
+					//accordionW      :$(window).width(),
+					expandedHeight	: 400,
+					animSpeed		: 500,
+					animOpacity		: 0.1,
+					visibleSlices	: 2
+				});
+
+				$('#input01_in')
+					.css({
+						'font-size':'10px', 
+					});
+				$('#Adjust1').click(function(){
+					ShowForm(1);
+					Getparameters(1);
+				});
+				$('#Adjust2').click(function(){
+					ShowForm(2);		
+					Getparameters(2);
+				});
+				$('#Adjust3').click(function(){
+					ShowForm(3);
+					Getparameters(3);	
+				});
+				$('#Adjust4').click(function(){
+					ShowForm(4);
+					Getparameters(4);	
+				});
+				$('#Adjust5').click(function(){
+					ShowForm(5);
+					Getparameters(5);	
+				});
+				$('#Adjust6').click(function(){
+					ShowForm(6);	
+					Getparameters(6);	
+				});
+				$('#Adjust7').click(function(){
+					ShowForm(7);	
+					Getparameters(7);	
+				});
+				$('#Adjust8').click(function(){
+					ShowForm(8);	
+					Getparameters(8);	
+				});
+				input01.keypress(function(){
+					console.log('pressed');
+				});
+				
+				input02.keypress(function(){
+					console.log('pressed');
+				});
+
+				input03.keypress(function(){
+					console.log('pressed');
+				});
+
+				input04.keypress(function(){
+					console.log('pressed');
+				});
+
+				select01.change(function(){
+					console.log('changed');
+				});
+
+				select02.change(function(){
+					console.log('changed');
+				});
+				$('#Save').click(function(){
+					console.log(current);
+					$.post("test.php",
+            					{ 	core: current,
+									log_filename: input01.val(), 
+									server_name: select01.val(),
+									database_name: select02.val(),
+									address: input02.val(),
+									follow: input03.val(),
+									track: input04.val(),
+						 		},
+            					function(result){
+                				if(result == "success"){
+                    					console.log(result);
+                				}else{
+                      					console.log(result);
+                				}
+            				});
+					$("#va-accordion")
+						.animate({left: 0, opacity: 1.0}, 1000);
+						
+					$('#testing')
+						.animate({left: 600, opacity: 0.2}, 1000, function(){
+                                                        $(this).hide();
+                         		});
+
+					$('form')
+						.animate({left: 600, opacity: 0.2}, 1000, function(){
+							$(this).hide();
+						});
+					$('button')
+						.animate({left: 600, opacity: 0.2}, 1000, function(){
+							$(this).hide();
+						});
+								
+				});
+				
+				function Getparameters(core){
+					var counter = 1;
+					$.getJSON("parameters.json", function(data){
+                		$.each(data, function(i, item) {
+                			if(core == counter){
+
+		                        	input01.val(item.log_filename);
+		                       		select01.val(item.server_name);
+		                        	select02.val(item.database_name);
+		                        	var adress_list = item.to_addrs.join(",");
+		                        	var follow_list = item.follow.join(",");
+		                        	var track_list = item.track.join(",");
+		                        	input02.val(adress_list);
+		                        	input03.val(follow_list);
+		                        	input04.val(track_list);
+	                    		}
+	                    		counter += 1;
+	                    		console.log(counter);
+                			});
+        			});
+				}; 
+
+				function ShowForm(c){
+					current = c;
+					$("#va-accordion")
+						.animate({left: -700, opacity: 0.5}, 1000);
+					$('#testing')
+						.show()
+                        .animate({left: 0, opacity: 0.7}, 1000, function(){
+                                $(this).animate({opacity: 1}, 300);
+                        });
+					$('form')
+						.show()
+						.animate({left: 0, opacity: 0.7}, 1000, function(){
+							$(this).animate({opacity: 1}, 300);
+						});
+					$('button')
+						.show()
+						.animate({left: 0, opacity: 0.7}, 1000, function(){
+							$(this).animate({opacity: 1}, 300);
+						});
+				};
+			 });
+			
+		</script>
+</body>
+</html>

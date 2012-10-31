@@ -1,0 +1,154 @@
+{
+    "qactweet1": {
+        "log_filename": "/home/twitter-data/logs/qactweet1.log",
+        "server_name": "ducky",
+        "database_name": "GeneralElection",
+        "to_addrs": [
+            "rpetchler@wesleyan.edu"
+        ],
+        "follow": [
+        ],
+        "track": [
+            "obama", "romney"
+        ],
+        "twitter_consumer_key": "HIDDEN-1-1",
+        "twitter_consumer_secret": "HIDDEN-1-2",
+        "twitter_access_key": "HIDDEN-1-3",
+        "twitter_access_secret": "HIDDEN-1-4",
+        "placemaker_consumer_key": "HIDDEN-1-5",
+        "placemaker_consumer_secret": "HIDDEN-1-6"
+    },
+    "qactweet2": {
+        "log_filename": "/home/twitter-data/logs/qactweet2.log",
+        "server_name": "ducky",
+        "database_name": "GeneralElection",
+        "to_addrs": [
+            "rpetchler@wesleyan.edu"
+        ],
+        "follow": [
+        ],
+        "track": [
+            "obama", "romney"
+        ],
+        "twitter_consumer_key": "HIDDEN-2-1",
+        "twitter_consumer_secret": "HIDDEN-2-2",
+        "twitter_access_key": "HIDDEN-2-3",
+        "twitter_access_secret": "HIDDEN-2-4",
+        "placemaker_consumer_key": "HIDDEN-2-5",
+        "placemaker_consumer_secret": "HIDDEN-2-6"
+    },
+    "qactweet3": {
+        "log_filename": "/home/twitter-data/logs/qactweet3.log",
+        "server_name": "ducky",
+        "database_name": "GeneralElection",
+        "to_addrs": [
+            "rpetchler@wesleyan.edu"
+        ],
+        "follow": [
+        ],
+        "track": [
+            "obama", "romney"
+        ],
+        "twitter_consumer_key": "HIDDEN-3-1",
+        "twitter_consumer_secret": "HIDDEN-3-2",
+        "twitter_access_key": "HIDDEN-3-3",
+        "twitter_access_secret": "HIDDEN-3-4",
+        "placemaker_consumer_key": "HIDDEN-3-5",
+        "placemaker_consumer_secret": "HIDDEN-3-6"
+    },
+    "qactweet4": {
+        "log_filename": "/home/twitter-data/logs/qactweet4.log",
+        "server_name": "ducky",
+        "database_name": "GeneralElection",
+        "to_addrs": [
+            "rpetchler@wesleyan.edu"
+        ],
+        "follow": [
+        ],
+        "track": [
+            "obama", "romney"
+        ],
+        "twitter_consumer_key": "HIDDEN-4-1",
+        "twitter_consumer_secret": "HIDDEN-4-2",
+        "twitter_access_key": "HIDDEN-4-3",
+        "twitter_access_secret": "HIDDEN-4-4",
+        "placemaker_consumer_key": "HIDDEN-4-5",
+        "placemaker_consumer_secret": "HIDDEN-4-6"
+    },
+    "qactweet5": {
+        "log_filename": "/home/twitter-data/logs/qactweet5.log",
+        "server_name": "ducky",
+        "database_name": "GeneralElection",
+        "to_addrs": [
+            "rpetchler@wesleyan.edu"
+        ],
+        "follow": [
+        ],
+        "track": [
+            "obama http", "romney http"
+        ],
+        "twitter_consumer_key": "HIDDEN-5-1",
+        "twitter_consumer_secret": "HIDDEN-5-2",
+        "twitter_access_key": "HIDDEN-5-3",
+        "twitter_access_secret": "HIDDEN-5-4",
+        "placemaker_consumer_key": "HIDDEN-5-5",
+        "placemaker_consumer_secret": "HIDDEN-5-6"
+    },
+    "qactweet6": {
+        "log_filename": "/home/twitter-data/logs/qactweet6.log",
+        "server_name": "ducky",
+        "database_name": "GeneralElection",
+        "to_addrs": [
+            "rpetchler@wesleyan.edu"
+        ],
+        "follow": [
+        ],
+        "track": [
+            "obama http", "romney http"
+        ],
+        "twitter_consumer_key": "HIDDEN-6-1",
+        "twitter_consumer_secret": "HIDDEN-6-2",
+        "twitter_access_key": "HIDDEN-6-3",
+        "twitter_access_secret": "HIDDEN-6-4",
+        "placemaker_consumer_key": "HIDDEN-6-5",
+        "placemaker_consumer_secret": "HIDDEN-6-6"
+    },
+    "qactweet7": {
+        "log_filename": "/home/twitter-data/logs/qactweet7.log",
+        "server_name": "ducky",
+        "database_name": "GeneralElection",
+        "to_addrs": [
+            "rpetchler@wesleyan.edu"
+        ],
+        "follow": [
+        ],
+        "track": [
+            "obama http", "romney http"
+        ],
+        "twitter_consumer_key": "HIDDEN-7-1",
+        "twitter_consumer_secret": "HIDDEN-7-2",
+        "twitter_access_key": "HIDDEN-7-3",
+        "twitter_access_secret": "HIDDEN-7-4",
+        "placemaker_consumer_key": "HIDDEN-7-5",
+        "placemaker_consumer_secret": "HIDDEN-7-6"
+    },
+    "qactweet8": {
+        "log_filename": "/home/twitter-data/logs/qactweet8.log",
+        "server_name": "ducky",
+        "database_name": "GeneralElection",
+        "to_addrs": [
+            "rpetchler@wesleyan.edu"
+        ],
+        "follow": [
+        ],
+        "track": [
+            "obama http", "romney http"
+        ],
+        "twitter_consumer_key": "HIDDEN-8-1",
+        "twitter_consumer_secret": "HIDDEN-8-2",
+        "twitter_access_key": "HIDDEN-8-3",
+        "twitter_access_secret": "HIDDEN-8-4",
+        "placemaker_consumer_key": "HIDDEN-8-5",
+        "placemaker_consumer_secret": "HIDDEN-8-6"
+    }
+}
